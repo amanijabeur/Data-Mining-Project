@@ -46,9 +46,9 @@ The script downloads the dataset automatically via `kagglehub`. A Kaggle account
 | 1 | Load data via `kagglehub` |
 | 2 | Drop target-leakage columns (`reservation_status`, `reservation_status_date`) |
 | 3 | Clean data (duplicates, missing values, domain fixes) |
-| 4–5 | Train/test split (80/20, stratified) — **before EDA** |
-| 5a–5g | EDA on training data only (distributions, correlations, seasonality) |
-| 6–7 | Feature selection: drop numeric features with \|r\| < 0.02 |
+| 4-5 | Train/test split (80/20, stratified) — **before EDA** |
+| 5a-5g | EDA on training data only (distributions, correlations, seasonality) |
+| 6-7 | Feature selection: drop numeric features with \|r\| < 0.02 |
 | 8 | `ColumnTransformer`: OHE (low-cardinality), OrdinalEncoder (high-cardinality), StandardScaler (numeric) |
 | 9 | PCA diagnostic (scree plot, 2D scatter, loadings heatmap) |
 | 10 | `GridSearchCV` training: Logistic Regression, Random Forest, Decision Tree |
