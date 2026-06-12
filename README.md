@@ -4,7 +4,7 @@ A machine learning pipeline that predicts hotel booking cancellations using the 
 
 ## Overview
 
-This project builds and evaluates three classification models — Logistic Regression, Random Forest, and Decision Tree — to predict whether a hotel booking will be cancelled. It emphasizes rigorous **data leakage prevention** throughout, with the train/test split occurring before any EDA or preprocessing is fitted.
+This project builds and evaluates three classification models — Logistic Regression, Random Forest, and Decision Tree, to predict whether a hotel booking will be cancelled. It emphasizes rigorous **data leakage prevention** throughout, with the train/test split occurring before any EDA or preprocessing is fitted.
 
 ## Features
 
