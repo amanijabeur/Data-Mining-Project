@@ -103,7 +103,5 @@ Leakage is addressed at every stage:
 - **Decision Tree overfitting** is explicitly measured: Train AUC vs CV AUC vs Test AUC are printed so the generalization gap is visible.
 - **Random Forest** is used for threshold tuning as it produces the best-calibrated probability estimates among the three models.
   
-## Output Images
-
 ## Report
 - a well detailed report explaining the whole project.
